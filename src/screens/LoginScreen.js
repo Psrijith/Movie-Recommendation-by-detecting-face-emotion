@@ -29,7 +29,7 @@ function LoginScreen() {
 
                 <div className='loginScreen__input'>
                   <form>
-                    <input type='email' placeholder='Email Address'/>
+                    <input name="email" type='email' placeholder='Email Address' autoComplete='off'/>
                     <button onClick={() => setSignIn(true)} className='loginScreen__getStarted'>GET STARTED</button>
                   </form>
                 </div>

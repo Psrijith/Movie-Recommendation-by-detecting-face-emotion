@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/app": "^0.9.25",
     "@firebase/auth": "^0.23.2",
+    "@firebase/firestore": "^4.4.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@tensorflow/tfjs": "^4.9.0",
     "@testing-library/jest-dom": "^5.16.5",
